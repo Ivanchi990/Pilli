@@ -9,4 +9,76 @@
     <string name="have_account">¿Ya tienes una cuenta?</string>
     <string name="login">Iniciar sesión</string>
 
+    <!-- User type -->
+    <string name="create_account">¡Encantados de conocerte! ¿La salud de quién estás gestionando?</string>
+    <string name="first_user_type">Mi salud</string>
+    <string name="second_user_type">La salud de otro</string>
+
+    <!-- Care type -->
+    <string name="who_care">¿A quién cuidas?</string>
+    <string name="first_care_type">Padre/Madre</string>
+    <string name="second_care_type">Hijo/a</string>
+    <string name="third_care_type">Esposo/a - Pareja</string>
+    <string name="fourth_care_type">Paciente</string>
+    <string name="fifth_care_type">Mascota</string>
+    <string name="sixth_care_type">Otro</string>
+
+    <!-- Care type -->
+    <string name="ask_name">¿Cómo se llama?</string>
+    <string name="name">Nombre*</string>
+    <string name="surname">Apellido*</string>
+    <string name="next">Siguiente</string>
+
+    <!-- Sex type -->
+    <string name="ask_sex">¿Como se identifica?</string>
+    <string name="first_sex_type">Hombre</string>
+    <string name="second_sex_type">Mujer</string>
+    <string name="third_sex_type">No binario</string>
+    <string name="fourth_sex_type">Otro</string>
+
+    <!-- Care type -->
+    <string name="birthday">¿Cúal es su fecha de nacimiento?</string>
+
+    <!-- Add device -->
+    <string name="profile_created">El perfil ha sido creado con éxito</string>
+    <string name="info_add_device">Ahora, procedemos fácilmente a añadir sus medicamentos y crear sus recordatorios personalizados.</string>
+    <string name="add_device">Añadir dispositivo Pilli</string>
+
+    <!-- Add pills -->
+    <string name="add_pills">¿Qué medicamentos quiere agregar?</string>
+    <string name="search_pills">Introduce el medicamento</string>
+    <string name="first_pill_type">Paracetamol</string>
+    <string name="second_pill_type">Amoxicilina</string>
+    <string name="third_pill_type">Ibuprofeno</string>
+    <string name="fourth_pill_type">Dabigatran</string>
+    <string name="fifth_pill_type">Lezotrol</string>
+    <string name="sixth_pill_type">Metamizol</string>
+    <string name="seventh_pill_type">Norfloxacino</string>
+    <string name="eigth_pill_type">Oxicodona</string>
+
+    <!-- Pill type -->
+    <string name="pill_type">¿En qué presentación viene el medicamento?</string>
+    <string name="first_pill_type_p">Cápsulas</string>
+    <string name="second_pill_type_p">Cápsulas líquidas</string>
+    <string name="third_pill_type_p">Tabletas masticables</string>
+    <string name="fourth_pill_type_p">Gotas</string>
+    <string name="fifth_pill_type_p">Solución para inyección</string>
+    <string name="sixth_pill_type_p">Hidrosolubles</string>
+    <string name="seventh_pill_type_p">Tableta</string>
+    <string name="eigth_pill_type_p">Otro</string>
+
+    <!-- Frequency -->
+    <string name="ask_frequency">¿Con qué frecuencia se lo administra?</string>
+    <string name="first_frequency">Cada día</string>
+    <string name="second_frequency">Dia por medio</string>
+    <string name="third_frequency">Días específicos de la semana</string>
+    <string name="fourth_frequency">Ciclo recurrente</string>
+    <string name="fifth_frequency">Cada X dias</string>
+    <string name="sixth_frequency">Cada X semanas</string>
+    <string name="seventh_frequency">Cada X meses</string>
+    <string name="eigth_frequency">Según sea necesario</string>
+
+    <!-- Frequency -->
+    <string name="ask_time">¿Cuándo debe tomarse la dosis?</string>
+
 </resources>
