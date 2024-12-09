@@ -2,10 +2,8 @@ package ifp.business.pilli.ui.home
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import dagger.hilt.android.AndroidEntryPoint
 import ifp.business.pilli.databinding.ActivityMainBinding
 
-@AndroidEntryPoint
 class MainActivity : AppCompatActivity()
 {
 	private lateinit var binding: ActivityMainBinding
@@ -22,28 +20,6 @@ class MainActivity : AppCompatActivity()
 
 	private fun initUI()
 	{
-		if(userLoged())
-		{
-			initNavigation()
-		}
-		else
-		{
-			initLogin()
-		}
-	}
 
-	private fun initLogin()
-	{
-
-	}
-
-	private fun initNavigation()
-	{
-
-	}
-
-	private fun userLoged(): Boolean
-	{
-		return true
 	}
 }

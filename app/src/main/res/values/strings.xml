@@ -81,4 +81,18 @@
     <!-- Frequency -->
     <string name="ask_time">¿Cuándo debe tomarse la dosis?</string>
 
+    <!-- New Pill -->
+    <string name="new_pill">El dispositivo se ha añadido con éxito</string>
+    <string name="desc_new_pill">Ahora, procedamos facilmente a añadir sus medicamentos y crear sus recordatorios personalizados.</string>
+    <string name="add_pill">Añadir medicamento</string>
+
+    <!-- Resume New Pill -->
+    <string name="pill_name">Ibuprofen</string>
+    <string name="finished">Casi hemos terminado, le gustaria: </string>
+    <string name="duration">¿Establecer la duración del tratamiento?</string>
+    <string name="recharge">¿Establecer recordatorio de recarga?</string>
+    <string name="set_instructions">¿Agregar instrucciones?</string>
+    <string name="change_icon">¿Cambiar el icono del medicamento?</string>
+    <string name="save">Guardar</string>
+
 </resources>

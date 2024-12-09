@@ -5,11 +5,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import dagger.hilt.android.AndroidEntryPoint
+import androidx.navigation.fragment.findNavController
 import ifp.business.pilli.R
 import ifp.business.pilli.databinding.FragmentIntroductionBinding
+import ifp.business.pilli.ui.login.create_user.UserTypeFragment
 
-@AndroidEntryPoint
 class IntroductionFragment : Fragment()
 {
 	private var _binding: FragmentIntroductionBinding? = null
@@ -31,6 +31,8 @@ class IntroductionFragment : Fragment()
 
 	private fun initUI()
 	{
-
+		binding.btnRounded.setOnClickListener {
+			findNavController().navigate(R.id.action_introductionFragment_to_userTypeFragment)
+		}
 	}
 }

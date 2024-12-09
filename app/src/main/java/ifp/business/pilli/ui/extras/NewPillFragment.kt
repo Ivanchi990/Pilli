@@ -7,19 +7,20 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import ifp.business.pilli.R
-import ifp.business.pilli.databinding.FragmentPillTypeBinding
+import ifp.business.pilli.databinding.FragmentNewPillBinding
 
-class PillTypeFragment : Fragment()
+class NewPillFragment : Fragment()
 {
-	private var _binding: FragmentPillTypeBinding? = null
+	private var _binding: FragmentNewPillBinding? = null
 	private val binding get() = _binding!!
 
 	override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View?
 	{
-		_binding = FragmentPillTypeBinding.inflate(inflater, container, false)
+		_binding = FragmentNewPillBinding.inflate(inflater, container, false)
 
 		return binding.root
 	}
+
 
 	override fun onViewCreated(view: View, savedInstanceState: Bundle?)
 	{
@@ -30,8 +31,8 @@ class PillTypeFragment : Fragment()
 
 	private fun initUI()
 	{
-		binding.tvFirstPill.setOnClickListener {
-			findNavController().navigate(R.id.action_pillTypeFragment_to_frequencyFragment)
+		binding.btnAddPill.setOnClickListener {
+			findNavController().navigate(R.id.action_newPillFragment_to_addPillsFragment)
 		}
 	}
 }

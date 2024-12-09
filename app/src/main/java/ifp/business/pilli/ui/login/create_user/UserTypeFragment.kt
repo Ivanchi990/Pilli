@@ -5,11 +5,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import dagger.hilt.android.AndroidEntryPoint
+import androidx.navigation.fragment.findNavController
 import ifp.business.pilli.R
 import ifp.business.pilli.databinding.FragmentUserTypeBinding
 
-@AndroidEntryPoint
 class UserTypeFragment : Fragment()
 {
 	private var _binding: FragmentUserTypeBinding? = null
@@ -31,6 +30,8 @@ class UserTypeFragment : Fragment()
 
 	private fun initUI()
 	{
-
+		binding.tvSecondType.setOnClickListener {
+			findNavController().navigate(R.id.action_userTypeFragment_to_careTypeFragment)
+		}
 	}
 }

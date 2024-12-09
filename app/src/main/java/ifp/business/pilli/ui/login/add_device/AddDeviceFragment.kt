@@ -5,6 +5,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
+import ifp.business.pilli.R
 import ifp.business.pilli.databinding.FragmentAddDeviceBinding
 
 class AddDeviceFragment : Fragment()
@@ -28,6 +30,8 @@ class AddDeviceFragment : Fragment()
 
 	private fun initUI()
 	{
-
+		binding.btnAddDevice.setOnClickListener {
+			findNavController().navigate(R.id.action_addDeviceFragment_to_addPillsFragment)
+		}
 	}
 }

@@ -9,5 +9,113 @@
         android:id="@+id/introductionFragment"
         android:name="ifp.business.pilli.ui.login.introduction.IntroductionFragment"
         android:label="fragment_introduction"
-        tools:layout="@layout/fragment_introduction" />
+        tools:layout="@layout/fragment_introduction" >
+        <action
+            android:id="@+id/action_introductionFragment_to_userTypeFragment"
+            app:destination="@id/userTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addDeviceFragment"
+        android:name="ifp.business.pilli.ui.login.add_device.AddDeviceFragment"
+        android:label="fragment_add_device"
+        tools:layout="@layout/fragment_add_device" >
+        <action
+            android:id="@+id/action_addDeviceFragment_to_addPillsFragment"
+            app:destination="@id/newPillFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addPillsFragment"
+        android:name="ifp.business.pilli.ui.extras.AddPillsFragment"
+        android:label="fragment_add_pills"
+        tools:layout="@layout/fragment_add_pills" >
+        <action
+            android:id="@+id/action_addPillsFragment_to_pillTypeFragment"
+            app:destination="@id/pillTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/birthdayFragment"
+        android:name="ifp.business.pilli.ui.login.birthday.BirthdayFragment"
+        android:label="fragment_birthday"
+        tools:layout="@layout/fragment_birthday" >
+        <action
+            android:id="@+id/action_birthdayFragment_to_addDeviceFragment"
+            app:destination="@id/addDeviceFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/careTypeFragment"
+        android:name="ifp.business.pilli.ui.login.care_type.CareTypeFragment"
+        android:label="fragment_care_type"
+        tools:layout="@layout/fragment_care_type" >
+        <action
+            android:id="@+id/action_careTypeFragment_to_nameFragment"
+            app:destination="@id/nameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/frequencyFragment"
+        android:name="ifp.business.pilli.ui.extras.FrequencyFragment"
+        android:label="fragment_frequency"
+        tools:layout="@layout/fragment_frequency" >
+        <action
+            android:id="@+id/action_frequencyFragment_to_timeFragment"
+            app:destination="@id/timeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nameFragment"
+        android:name="ifp.business.pilli.ui.login.name.NameFragment"
+        android:label="fragment_name"
+        tools:layout="@layout/fragment_name" >
+        <action
+            android:id="@+id/action_nameFragment_to_sexFragment"
+            app:destination="@id/sexFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pillTypeFragment"
+        android:name="ifp.business.pilli.ui.extras.PillTypeFragment"
+        android:label="fragment_pill_type"
+        tools:layout="@layout/fragment_pill_type" >
+        <action
+            android:id="@+id/action_pillTypeFragment_to_frequencyFragment"
+            app:destination="@id/frequencyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sexFragment"
+        android:name="ifp.business.pilli.ui.login.sex.SexFragment"
+        android:label="fragment_sex"
+        tools:layout="@layout/fragment_sex" >
+        <action
+            android:id="@+id/action_sexFragment_to_birthdayFragment"
+            app:destination="@id/birthdayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeFragment"
+        android:name="ifp.business.pilli.ui.extras.TimeFragment"
+        android:label="fragment_time"
+        tools:layout="@layout/fragment_time" >
+        <action
+            android:id="@+id/action_timeFragment_to_resumeNewPillFragment"
+            app:destination="@id/resumeNewPillFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userTypeFragment"
+        android:name="ifp.business.pilli.ui.login.create_user.UserTypeFragment"
+        android:label="fragment_user_type"
+        tools:layout="@layout/fragment_user_type" >
+        <action
+            android:id="@+id/action_userTypeFragment_to_careTypeFragment"
+            app:destination="@id/careTypeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newPillFragment"
+        android:name="ifp.business.pilli.ui.extras.NewPillFragment"
+        android:label="fragment_new_pill"
+        tools:layout="@layout/fragment_new_pill" >
+        <action
+            android:id="@+id/action_newPillFragment_to_addPillsFragment"
+            app:destination="@id/addPillsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resumeNewPillFragment"
+        android:name="ifp.business.pilli.ui.extras.ResumeNewPillFragment"
+        android:label="fragment_resume_new_pill"
+        tools:layout="@layout/fragment_resume_new_pill" />
 </navigation>
