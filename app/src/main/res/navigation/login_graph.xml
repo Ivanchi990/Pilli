@@ -117,5 +117,23 @@
         android:id="@+id/resumeNewPillFragment"
         android:name="ifp.business.pilli.ui.extras.ResumeNewPillFragment"
         android:label="fragment_resume_new_pill"
-        tools:layout="@layout/fragment_resume_new_pill" />
+        tools:layout="@layout/fragment_resume_new_pill" >
+        <action
+            android:id="@+id/action_resumeNewPillFragment_to_showFakeMenuFragment"
+            app:destination="@id/showFakeMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFakeMenuFragment"
+        android:name="ifp.business.pilli.ui.extras.ShowFakeMenuFragment"
+        android:label="fragment_show_fake_menu"
+        tools:layout="@layout/fragment_show_fake_menu" >
+        <action
+            android:id="@+id/action_showFakeMenuFragment_to_showFakeNotificationFragment"
+            app:destination="@id/showFakeNotificationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFakeNotificationFragment"
+        android:name="ifp.business.pilli.ui.extras.ShowFakeNotificationFragment"
+        android:label="fragment_show_fake_notification"
+        tools:layout="@layout/fragment_show_fake_notification" />
 </navigation>
